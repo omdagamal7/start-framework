@@ -1,0 +1,18 @@
+nav {
+  transition: all 0.5s;
+}
+.run {
+  background-color: #1ABC9C !important;
+  border-radius: 12px !important;
+  padding: 10px 10px;
+  margin-left:10px !important;
+}
+.p-30 {
+  padding: 20px 0 !important;
+}
+
+@media (width <= 992px) {
+  li {
+    margin: 15px 0 !important;
+  }
+}

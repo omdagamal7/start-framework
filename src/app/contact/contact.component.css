@@ -1,0 +1,39 @@
+.form {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container {
+  width: 70% ;
+}
+input {
+  width: 100%;
+  border-bottom: #ccc solid 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+.container div {
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+}
+.container div label {
+  color: #1ABC9C;
+  position: absolute;
+  z-index: 1;
+}
+.button {
+  min-width: 70%;
+}
+button {
+  background-color: #1ABC9C;
+}
